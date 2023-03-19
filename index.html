@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Discography</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/uikit.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/uikit.min.js"></script>
+	<script src="js/uikit-icons.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Noto+Serif+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body class="main-bg"> <!-- class="uk-background-cover uk-background" data-src="images/bg-main.jpg" uk-img -->
+	<div class="uk-background-secondary uk-position-absolute fade-out uk-position-z-index uk-width-expand">
+		<div class="uk-flex uk-flex-middle uk-flex-center uk-height-viewport">
+			<img src="images/bbdisc-full.svg" width="500px" class="uk-padding" uk-scrollspy="cls: uk-animation-fade; delay: 200; repeat: true">
+		</div>
+	</div>
+	<header class="uk-section uk-section-xsmall">
+		<div class="uk-container uk-container-large">
+			<div class="uk-grid-collapse" uk-grid>
+				<div class="uk-width-auto">
+					<a href="index.html"><img src="images/bbdisc.svg"></a>
+				</div>
+				<div class="uk-visible@s uk-width-expand uk-text-right">
+					<nav>
+						<a href="music.html">Music</a>
+						<a href="oops.html">Concert</a>
+						<a href="oops.html">Button&card</a>
+						<a href="collab.html">Collab</a>
+						<a href="oops.html">Other</a>
+					</nav>
+				</div>
+				<div class="uk-hidden@s uk-width-expand uk-text-right">
+					<a href="#" class="uk-icon-link" uk-icon="icon: menu; ratio:1.5" uk-toggle="target: #offcanvas-nav"></a>
+					<div id="offcanvas-nav" uk-offcanvas="overlay: true; flip: true">
+						<button class="uk-offcanvas-close" type="button" uk-close></button>
+					    <div class="uk-offcanvas-bar">
+					        <ul class="uk-nav uk-nav-default">
+					            <li><a href="music.html">Music</a></li>
+					            <li><a href="oops.html">Concert</a></li>
+					            <li><a href="oops.html">Button&Card</a></li>
+					            <li><a href="collab.html">Collab</a></li>
+					            <li><a href="oops.html">Other</a></li>
+					            <li class="uk-nav-divider"></li>
+					            <li><a href="info.html">Info</a></li>
+					        </ul>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>      
+	</header>
+	<main>
+		<section class="uk-section uk-section-xsmall" uk-height-viewport="offset-top: true">
+			<div uk-height-viewport="expand:true;">
+			</div>
+			<div class="uk-container uk-container-large uk-text-right uk-light">
+				<a href="info.html" class="uk-icon-link" uk-icon="icon: info; ratio:1.5" uk-tooltip="title: INFO; pos: left"></a>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

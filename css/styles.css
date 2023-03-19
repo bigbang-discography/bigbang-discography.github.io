@@ -1,0 +1,257 @@
+/*---------- GEN ----------*/
+
+html{
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+}
+h1{
+	font-size: 4.768rem;
+	font-weight: 700;
+}
+h1 span{
+	font-family: 'Noto Serif Display', serif;
+	font-style: italic;
+	font-weight: 400;
+}
+h2{
+	font-family: 'Noto Serif Display', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 2.441rem;
+	line-height: 1.1;
+}
+h6{
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.07rem;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+b{
+	font-weight: 600;
+}
+ul{
+	margin-top: 5px;
+}
+.uk-light{
+	color: #fff;
+}
+.main-bg{
+		background-image: url(../images/bg-main.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+.to-top1{
+	padding: 2px 3px 5px 3px;
+	background: #333;
+	top: 100px;
+}
+.to-top2{
+	padding: 4px 0px 8px 0px;
+	background: #333;
+}
+.uk-totop{
+	color: #fff;
+}
+.to-top2 a{
+	width: 100px;
+}
+.fade-out {
+	-webkit-animation: fade-out 1.5s ease-out 2.5s both;
+	        animation: fade-out 1.5s ease-out 2.5s both;
+}
+@-webkit-keyframes fade-out {
+  0% {
+  	opacity: 1;
+  }
+  99% {
+    opacity: 0;
+    z-index: 1;
+  }
+  100%{
+    opacity: 0;
+    display:none;
+    position: fixed;
+    z-index: -5;
+  }
+}
+@keyframes fade-out {
+  0% { 
+  	opacity: 1;
+  }
+  99% {
+    opacity: 0;
+    z-index: 1;
+  }
+  100%{
+    opacity: 0;
+    position: fixed;
+    z-index: -5;
+  }
+}
+
+/*---------- NAV ----------*/
+
+header.uk-light{
+	border-bottom: 1px solid #fff;
+}
+nav a{
+	color: #000;
+	font-size: 0.9rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.07rem;
+	margin-left: 15px;
+}
+nav a:hover{
+	color: #000;
+	text-decoration: none;
+	font-family: 'Noto Serif Display', serif;
+	font-style: italic;
+}
+.uk-selected {
+	text-decoration: underline;
+	font-family: 'Noto Serif Display', serif;
+	font-style: italic;
+}
+.info a{
+	color: #fff!important;
+	width: 50px;
+	height: 50px;
+	background: #000;
+}
+.uk-offcanvas-bar .uk-nav-default>li>a{
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.1rem!important;
+}
+.uk-offcanvas-bar .uk-nav-default>li.uk-active>a{
+	font-family: 'Noto Serif Display', serif;
+	text-decoration: underline;
+}
+.uk-icon-link{
+	color: #000;
+}
+
+/*---------- FILTER ----------*/
+
+.uk-light .uk-subnav-pill>*>:first-child{
+	color: #fff;
+	letter-spacing: 0.07rem;	
+}
+.uk-dropdown{
+	padding: 15px;
+	min-width: 100px;
+	background: #333;
+}
+.uk-dropdown-nav li{
+	padding: 0;
+}
+.uk-dropdown-nav>li.uk-active>a{
+	color: #fff;
+}
+
+/*---------- GRIDS ----------*/
+
+.js-filter > div > div > a > p:not(b){
+	font-weight: 300;
+}
+/*.js-filter > div > div > a > p span{
+	font-weight: 400;
+}*/
+.uk-light .uk-label{
+	color: #000;
+}
+.uk-label {
+	display: inline-block;
+	margin-top: 3px;
+	padding: 0px 6px 0px 6px;
+	font-size: .65rem;
+	font-weight: 400;
+	white-space: nowrap;
+	border-radius: 1px;
+	text-transform: none; 
+	vertical-align: text-top;
+}
+.uk-slider-container {
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+/*---------- INFO ----------*/
+
+li{
+	padding-left: 10px;
+}
+li::marker{
+	font-family: 'Noto Serif Display', serif;
+	font-style: italic;
+}
+.uk-light hr{
+	border-top-color: #fff;
+	margin: 30px 0;
+}
+h2 .uk-label {
+	font-family: 'Inter', sans-serif;
+	font-size: 1rem;
+	vertical-align: middle;
+	margin-top: -7px;
+	font-style: normal;
+}
+
+/*---------- FOOTER ----------*/
+
+footer{
+	border-top: 1px solid #fff;
+}
+footer p{
+	font-size: 0.8rem;
+	margin: 0;
+}
+.uk-tooltip.uk-active {
+    color: #fff !important;
+    font-size: 0.7rem !important;
+    background-color: #333;
+}
+.uk-light .uk-icon-link{
+	color: #fff;
+}
+
+/*---------- QUERIES ----------*/
+
+@media screen and (max-width: 959px){
+	.main-bg{
+		background-image: url(../images/bg-med2.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	h1{
+		font-size: 3.5rem;
+	}
+}
+@media screen and (max-width: 639px){
+	h1{
+		font-size: 3rem;
+	}
+	.main-bg{
+		background-image: url(../images/bg-small2.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.footer{
+		margin-bottom: 34px;
+	}
+}
+@media screen and (max-width: 500px){
+	html{
+		font-size: 0.9rem;
+	}
+}
+@media screen and (max-width: 350px){
+	html{
+		font-size: 0.8rem;
+	}
+}
